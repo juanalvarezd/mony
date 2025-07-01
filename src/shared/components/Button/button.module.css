@@ -1,0 +1,30 @@
+:root {
+  /* --Colors-- */
+  --dark: #201f24;
+  --size-100w: 100%;
+  --text-white: #fff;
+}
+
+.btn {
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: var(--radius-base);
+  font-weight: 600;
+  border: none;
+}
+
+.btn:focus {
+  box-shadow: 2px 2px 13px rgb(121, 116, 116);
+}
+
+/* --Sizes-- */
+.btnW100 {
+  width: var(--size-100w);
+}
+/* --Variants-- */
+.dark {
+  background-color: var(--dark);
+  color: var(--text-white);
+}
+
+/* --Utility class-- */

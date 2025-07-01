@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+}
+
+.hero {
+  display: none;
+}
+
+@media (min-width: 70em) {
+  .hero {
+    display: block;
+  }
+}

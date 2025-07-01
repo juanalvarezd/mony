@@ -1,0 +1,113 @@
+/* reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+  font-family: var(--font-family-base);
+  font-size: 16px;
+  background-color: var(--bg-primary);
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+:root {
+  /* Colors - Light Mode */
+  --bg-primary: #f8f4f0;
+  --bg-secondary: #ffffff;
+
+
+  --black: #1a1f2b;
+
+  --text-primary: #1a202c;
+  --text-secondary: #4a5568;
+
+  --border-color: #e2e8f0;
+
+  --accent-color: #2b6cb0;
+  --accent-hover: #3182ce;
+
+  /* Typography */
+  --font-family-base: "Public Sans", sans-serif;
+
+  /* text size */
+  /* @link https://utopia.fyi/type/calculator?c=375,16,1.2,1200,20,1.25,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l&g=s,l,xl,12 */
+
+  --text-xs: clamp(0.6944rem, 0.6465rem + 0.2047vw, 0.8rem);
+  --text-sm: clamp(0.8333rem, 0.7576rem + 0.3232vw, 1rem);
+  --text-md: clamp(1rem, 0.8864rem + 0.4848vw, 1.25rem);
+  --text-lg: clamp(1.2rem, 1.0352rem + 0.703vw, 1.5625rem);
+  --text-xl: clamp(1.44rem, 1.2068rem + 0.9952vw, 1.9531rem);
+  --text-2xl: clamp(1.728rem, 1.4037rem + 1.3836vw, 2.4414rem);
+  --text-3xl: clamp(2.0736rem, 1.629rem + 1.897vw, 3.0518rem);
+  --text-4xl: clamp(2.4883rem, 1.8854rem + 2.5724vw, 3.8147rem);
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-section: 2rem;
+  --spacing-card: 1rem;
+  --radius-base: 12px;
+
+  /* Shadow */
+  --box-shadow-light: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.dark {
+  /* Colors - Dark Mode */
+  --bg-primary: #1a1f2b;
+  --bg-secondary: #263145;
+
+  --text-primary: #e2e8f0;
+  --text-secondary: #a0aec0;
+
+  --border-color: #2d3748;
+
+  --accent-color: #63b3ed;
+  --accent-hover: #90cdf4;
+
+  /* Shadow */
+  --box-shadow-light: none;
+}
+
+/* utility class */
