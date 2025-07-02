@@ -1,0 +1,15 @@
+.form{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.authCta{
+  color: var(--text-secondary);
+  text-align: center;
+}
+
+.linkCta{
+  color: var(--text-primary);
+  font-weight: 700;
+}
