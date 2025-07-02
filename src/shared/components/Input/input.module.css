@@ -23,6 +23,18 @@
   transition: border-color 0.2s, box-shadow 0.2s;
 }
 
+.inputPassword {
+  position: relative;
+}
+
+.inputInfo {
+  display: block;
+  text-align: right;
+  margin-top: .3rem;
+  color: rgb(145, 143, 143);
+  font-weight:600;
+}
+
 .input:hover {
   border-color: var(--hover-border);
 }
