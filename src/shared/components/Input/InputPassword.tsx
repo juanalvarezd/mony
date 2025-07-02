@@ -18,3 +18,6 @@ export const InputPassword = ({ placeholder, ...rest }: InputProps) => {
       <span className={styles["inputInfo"]}>La contraseña debe tener al menos 8 caracteres</span>
     </div>)
 }
+
+
+
