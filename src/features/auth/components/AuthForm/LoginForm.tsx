@@ -16,7 +16,7 @@ const LoginForm = () => {
   return (
     <form onSubmit={handleSubmit} className={styles["form"]}>
       <FormGroup as={Input} type="email" placeholder="ejemplo@mail.com" label="Correo" id="email" />
-      <FormGroup  as={InputPassword} placeholder="Ingrese su contraseña" label="Contraseña" id="password" />
+      <FormGroup  as={InputPassword} placeholder="Ingrese su contraseña" label="Contraseña" id="password" minLength={8} />
       <Button type="submit" size="btnW100" variant="dark" >Iniciar sesión</Button>
       <p className={styles["authCta"]}>¿Necesitas crear una cuenta? <Link className={styles["linkCta"]} to={"/signup"}>Registrate</Link></p>
     </form>

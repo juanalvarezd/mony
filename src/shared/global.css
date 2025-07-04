@@ -50,10 +50,11 @@ h6 {
 }
 
 :root {
+  /* Colors */
+  --brand-color: #5fcac7;
   /* Colors - Light Mode */
-  --bg-primary: #f8f4f0;
+  --bg-primary: #f6ede4;
   --bg-secondary: #ffffff;
-
 
   --black: #1a1f2b;
 
