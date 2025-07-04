@@ -13,10 +13,10 @@
 
 .input {
   width: 100%;
-  padding: 0.5rem 0.75rem;
+  padding: 1rem 0.75rem;
   font-size: 1rem;
   border: 1px solid var(--border-color);
-  border-radius: 0.7rem;
+  border-radius: var(--radius-base);
   background-color: var(--bg-color);
   color: var(--text-color);
   outline: none;
@@ -43,12 +43,12 @@
   border-color: var(--focus-border);
   box-shadow: 0 0 0 2px var(--focus-shadow);
 }
-
+/* 
 .input:disabled {
   background-color: var(--bg-disabled);
   color: var(--text-color-disabled);
   cursor: not-allowed;
-}
+} */
 
 .inputError {
   border-color: var(--error-border-color);
@@ -60,4 +60,20 @@
 
 .input::placeholder {
   font-weight: 400;
+}
+
+/* --input password styles */
+
+.inputWrapper{
+  position: relative;
+
+}
+
+.BsEye{
+  position: absolute;
+  font-size: 1.5rem;
+  left: 90%;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
 }

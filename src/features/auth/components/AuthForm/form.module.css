@@ -1,15 +1,20 @@
-.form{
+.form {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   justify-content: space-evenly;
   height: 100%;
 }
-.authCta{
+.authCta {
   color: var(--text-secondary);
   text-align: center;
 }
 
-.linkCta{
+.linkCta {
   color: var(--text-primary);
   font-weight: 700;
+  transition: color 300ms ease-in-out;
+}
+
+.linkCta:hover {
+  color: var(--brand-color);
 }

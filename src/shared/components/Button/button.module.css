@@ -11,10 +11,21 @@
   border-radius: var(--radius-base);
   font-weight: 600;
   border: none;
+  transition: color 300ms ease-in-out;
 }
 
 .btn:focus {
   box-shadow: 2px 2px 13px rgb(121, 116, 116);
+}
+
+.btn:hover {
+  color: var(--brand-color);
+}
+
+.btn:disabled {
+  background-color: var(--bg-disabled);
+  color: var(--text-color-disabled);
+  cursor: auto;
 }
 
 /* --Sizes-- */
