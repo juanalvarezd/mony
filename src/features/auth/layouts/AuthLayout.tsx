@@ -1,5 +1,5 @@
 import { Outlet } from "react-router-dom";
-import hero from "@/assets/pig-1.png";
+import hero from "@/assets/pig.png";
 import styles from "@/features/auth/layouts/authLayout.module.css"
 import Header from "../components/Header/Header";
 
