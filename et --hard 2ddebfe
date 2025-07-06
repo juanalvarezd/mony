@@ -1,0 +1,38 @@
+[33m2b0bbe1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/auth-section[m[33m)[m HEAD@{0}: reset: moving to origin/auth-section
+[33mc441478[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{1}: reset: moving to origin/main
+[33mc441478[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{2}: checkout: moving from feature/auth-section-admin to main
+[33m9f822c0[m[33m ([m[1;32mfeature/auth-section-admin[m[33m)[m HEAD@{3}: commit: Se renombro la hero image y correccion de ruta
+[33m314db85[m HEAD@{4}: checkout: moving from feature/auth-section-admin to feature/auth-section-admin
+[33m314db85[m HEAD@{5}: checkout: moving from feature/auth-section-admin to feature/auth-section-admin
+[33m314db85[m HEAD@{6}: checkout: moving from feature/auth-section-admin to feature/auth-section-admin
+[33m314db85[m HEAD@{7}: checkout: moving from main to feature/auth-section-admin
+[33mc441478[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{8}: checkout: moving from feature/auth-section-admin to main
+[33m314db85[m HEAD@{9}: checkout: moving from feature/auth-section to feature/auth-section-admin
+[33m4eae0d6[m[33m ([m[1;31morigin/feature/auth-section[m[33m, [m[1;32mfeature/auth-section[m[33m)[m HEAD@{10}: checkout: moving from main to feature/auth-section
+[33mc441478[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{11}: checkout: moving from feature/auth-section-admin to main
+[33m314db85[m HEAD@{12}: checkout: moving from feature/auth-section to feature/auth-section-admin
+[33m4eae0d6[m[33m ([m[1;31morigin/feature/auth-section[m[33m, [m[1;32mfeature/auth-section[m[33m)[m HEAD@{13}: checkout: moving from feature/auth-section-admin to feature/auth-section
+[33m314db85[m HEAD@{14}: commit: Eliminadas imagenes que no se utilizaranAB
+[33m690c144[m[33m ([m[1;31morigin/feature/auth-section-admin[m[33m)[m HEAD@{15}: checkout: moving from main to feature/auth-section-admin
+[33mc441478[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{16}: checkout: moving from feature/auth-section-admin to main
+[33m690c144[m[33m ([m[1;31morigin/feature/auth-section-admin[m[33m)[m HEAD@{17}: checkout: moving from main to feature/auth-section-admin
+[33mc441478[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{18}: checkout: moving from feature/auth-section-admin to main
+[33m690c144[m[33m ([m[1;31morigin/feature/auth-section-admin[m[33m)[m HEAD@{19}: checkout: moving from main to feature/auth-section-admin
+[33mc441478[m[33m ([m[1;31morigin/main[m[33m)[m HEAD@{20}: pull: Fast-forward
+[33m7a75782[m HEAD@{21}: checkout: moving from feature/auth-section to main
+[33m4eae0d6[m[33m ([m[1;31morigin/feature/auth-section[m[33m, [m[1;32mfeature/auth-section[m[33m)[m HEAD@{22}: pull: Fast-forward
+[33m7a75782[m HEAD@{23}: checkout: moving from feature/auth-section-admin to feature/auth-section
+[33m690c144[m[33m ([m[1;31morigin/feature/auth-section-admin[m[33m)[m HEAD@{24}: checkout: moving from feature/auth-section to feature/auth-section-admin
+[33m7a75782[m HEAD@{25}: checkout: moving from feature/auth-section-admin to feature/auth-section
+[33m690c144[m[33m ([m[1;31morigin/feature/auth-section-admin[m[33m)[m HEAD@{26}: commit: style: maquetado responsive, animaciones y hero image en auth
+[33m7a75782[m HEAD@{27}: checkout: moving from feature/auth-section to feature/auth-section-admin
+[33m7a75782[m HEAD@{28}: checkout: moving from main to feature/auth-section
+[33m7a75782[m HEAD@{29}: checkout: moving from feature/auth-section to main
+[33m7a75782[m HEAD@{30}: checkout: moving from feature/auth-section-admin to feature/auth-section
+[33m7a75782[m HEAD@{31}: checkout: moving from main to feature/auth-section-admin
+[33m7a75782[m HEAD@{32}: checkout: moving from main to main
+[33m7a75782[m HEAD@{33}: checkout: moving from feature/auth-section-admin to main
+[33m7a75782[m HEAD@{34}: checkout: moving from main to feature/auth-section-admin
+[33m7a75782[m HEAD@{35}: pull origin main: Fast-forward
+[33md2fb34e[m HEAD@{36}: Branch: renamed refs/heads/master to refs/heads/main
+[33md2fb34e[m HEAD@{38}: commit (initial): trabajando en la seccion de autenticacion
