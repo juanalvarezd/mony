@@ -7,11 +7,21 @@
   padding: 0 1rem;
 }
 
-.hero {
+.imageContainer {
   display: none;
 }
 
-.imageContainer {
+
+
+@media (min-width: 70em) {
+  .hero {
+    max-width: 550px;
+    object-fit: contain;
+    transform: scale(.5);
+    transition: transform 0.3s ease, filter 0.3s ease;
+  }
+
+  .imageContainer {
   display: flex;
   height: 90vh;
   border-radius: 1rem;
@@ -20,15 +30,6 @@
   background-size: cover;
   background-position: center;
 }
-
-@media (min-width: 70em) {
-  .hero {
-    display: block;
-    max-width: 550px;
-    object-fit: contain;
-    transform: scale(.5);
-    transition: transform 0.3s ease, filter 0.3s ease;
-  }
 
   .hero:hover {
     filter: drop-shadow(2px 3px 4px rgba(0, 0, 0, 0.4));
