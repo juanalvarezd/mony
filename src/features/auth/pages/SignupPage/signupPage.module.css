@@ -12,3 +12,8 @@
   background-color: var(--bg-secondary);
 }
 
+@media (max-height: 44em) {
+  .main {
+    height: 80dvh;
+  }
+}
